@@ -1,0 +1,23 @@
+{
+    "name": "luis/buscador-de-curso",
+    "description": "Pacote buscador de curso",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Luis\\BuscadorDeCurso\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis Lessi"
+        }
+    ],
+    "config": {
+        "platform-check": false
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^5.3",
+        "symfony/css-selector": "^5.3"
+    }
+}
